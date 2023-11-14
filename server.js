@@ -3,7 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
-const booksController = require("/.controllers/books_controller");
+const booksController = require("./controllers/books_controller");
 
 //config/middleware
 
