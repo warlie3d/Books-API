@@ -105,7 +105,7 @@ books.delete('/:id', (req, res) => {
 books.post('/', (req, res) => {
     Book.create(req.body)
     .then((createBook) => {
-        res.status(200).json(createdBook);
+        res.status(200).json(createBook);
     })
     .catch((err) => {
         res.status(400).json({
